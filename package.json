@@ -1,0 +1,40 @@
+{
+  "name": "corp-raider",
+  "version": "1.0.0",
+  "description": "Capitalist sim game clone for code challenge",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "example.com"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "Alexander D. Wilson",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-transform-runtime": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "copy-webpack-plugin": "^7.0.0",
+    "eslint": "^7.18.0",
+    "eslint-config-prettier": "^7.2.0",
+    "html-webpack-plugin": "^4.5.1",
+    "jest": "^26.6.3",
+    "prettier": "^2.2.1",
+    "webpack": "^5.17.0",
+    "webpack-cli": "^4.4.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.12.5",
+    "pixi.js": "^5.3.7"
+  }
+}
